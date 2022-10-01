@@ -7,7 +7,7 @@
 int main() {
     int h, m, s;
 
-    printf("Set Time:\n");
+    printf("Set Time: ");
     scanf("%d %d %d", &h, &m, &s);
 
     if(h > 12 || m > 60 || s > 60) {
